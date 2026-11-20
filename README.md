@@ -6,7 +6,8 @@ OpenResilienceInitiative organisation that has no `CONTRIBUTING.md` of its own.
 
 The short version:
 
-- Every change starts with an issue, and every pull request links one.
+- Every change starts with an issue, and every pull request links one. Small features and fixes
+  can open the issue and the pull request together.
 - Product owners decide priority and release; the core team reviews, merges and runs QA.
 - Contributors run their own QA before a pull request goes to review.
 - Whoever works on an issue is its assignee and says so in a comment, so nobody fixes the same
@@ -61,13 +62,21 @@ What and Goal always describe what will be built. While this is open, the issue 
 `needs refinement`. It moves to Ready once the product owners and the contributor agree on the
 goal and the acceptance criteria.
 
-## Bugs and small changes
+## Proposing a small feature or fix
 
-Anyone may fix a bug, also one they did not cause. Small changes (bugs, and minor features
-without a new interface and without an ADR) can go to review together with their issue;
-triage and review then run in parallel.
+**Small features and fixes do not wait for triage: open the issue and the pull request together.**
+Triage and review then run in parallel, and the core team can still ask for changes or decline.
 
-![Bugs and small changes: find or create the issue, check whether someone is assigned, claim it, small changes go straight to a pull request after own QA](docs/contributing/bug-flow.svg)
+Small means all of the following:
+
+- a bug fix or a minor improvement of existing behaviour,
+- no new interface, no new service and no change to a shared contract (no ADR needed),
+- reviewable in one pull request.
+
+Anything bigger follows [Proposing a feature](#proposing-a-feature). Anyone may fix a bug, also one
+they did not cause; check the issue first so that two people do not fix the same thing.
+
+![Small features and fixes: find or create the issue, check whether someone is assigned, claim it; small changes go straight to a pull request after own QA, larger ones to triage first](docs/contributing/bug-flow.svg)
 
 ## Issues
 
