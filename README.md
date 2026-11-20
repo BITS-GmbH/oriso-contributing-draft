@@ -52,6 +52,15 @@ client clarify the scope with the client before they create the issue.
 
 ![Proposing a feature: the contributor creates the issue, the core team triages it, the contributor implements it with own QA, the core team reviews, merges, runs QA and releases](docs/contributing/feature-flow.svg)
 
+### Triage and refinement
+
+Triage is often a conversation, not a single decision. The product owners may ask for a smaller
+scope, a different approach or a split into several issues. Contributors who work on behalf of a
+client agree such changes with the client, and the issue is updated in place, so that its Why,
+What and Goal always describe what will be built. While this is open, the issue carries
+`needs refinement`. It moves to Ready once the product owners and the contributor agree on the
+goal and the acceptance criteria.
+
 ## Bugs and small changes
 
 Anyone may fix a bug, also one they did not cause. Small changes (bugs, and minor features
