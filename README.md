@@ -1,7 +1,7 @@
 # Contributing to ORISO
 
 This guide is for everyone who works on ORISO: the core team and external contributors such as
-partner organisations, agencies and individuals. It applies to every repository of the
+organisations, agencies and individuals, also when they work on behalf of a client. It applies to every repository of the
 OpenResilienceInitiative organisation that has no `CONTRIBUTING.md` of its own.
 
 The short version:
@@ -18,7 +18,7 @@ The short version:
 | --- | --- | --- |
 | Product owners | Designated by the Open Resilience Initiative | Priority, release planning, QA external, closing issues |
 | Core team | Maintainers of the repositories | Triage, code review, merging, QA internal |
-| Contributors | Anyone else, including partner organisations | Issues, implementation, own QA, pull requests |
+| Contributors | Anyone else, also on behalf of a client | Issues, implementation, own QA, pull requests |
 
 ## Where things live
 
@@ -47,10 +47,10 @@ to Low. Backlog items are only started after talking to the product owners.
 
 ## Proposing a feature
 
-Larger changes go through triage before anyone writes code. If the idea comes from a partner
-organisation, the contributor who brings it in clarifies the scope with them first.
+Larger changes go through triage before anyone writes code. Contributors who work on behalf of a
+client clarify the scope with the client before they create the issue.
 
-![Proposing a feature: the partner's idea is clarified and turned into an issue by the contributor, triaged by the core team, implemented with own QA, reviewed, merged, released and accepted by the partner](docs/contributing/feature-flow.svg)
+![Proposing a feature: the contributor creates the issue, the core team triages it, the contributor implements it with own QA, the core team reviews, merges, runs QA and releases](docs/contributing/feature-flow.svg)
 
 ## Bugs and small changes
 
